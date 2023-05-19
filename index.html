@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+    <title>Mia's HTML Cheatsheet</title>
+    <link href="/Users/miarisberg/Documents/Coding/html-css-cheatsheet-starting/styles.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--nav bar-->
+<div class="top">
+    <h1>Click one of the HTML topics from below!</h1> 
+</div>
+<div class="nav"> 
+    <h1><a href="#Elements">Elements</a></h1>
+    <h1><a href="#Structure">Structure</a></h1>
+    <h1><a href="#Semantic">Semantic</a></h1>
+</div> 
+<!--Topics-->
+<div class="Topics">
+<h2 id="Elements">HTML: Elements</h2>
+<p>The content of an HTML element is the info between the opening and closing tags of an element. Here are some examples:</p>
+<table>
+    <tr>
+        <th span="col">Tag</th>
+        <th span="col">Name</th>
+        <th span="col">Description</th>
+    </tr>
+    <tr>
+        <td>&lt;li&gt;</td>
+        <td>List item element</td>
+        <td>Used to list items within:
+            <ul>
+                <li>Ordered list &lt;ol&gt;</li>
+                <li>Unordered list &lt;ul&gt;</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>&lt;video&gt;</td>
+        <td>Video element</td>
+        <td>Embeds media player for video playback.<br><span class="attribute">src</span> attribute will contain url to the video.<br><span class="attribute">controls</span> attribute will display controls for media player.</td>
+    </tr> 
+    <tr>
+        <td>&lt;div&gt;</td>
+        <td>Div element</td>
+        <td>Container that divides an HTML doc. Can contain flow content like headings, paragraphs, link, etc. </td>
+    </tr>
+    <tr>
+        <td>&lt;br&gt;</td>
+        <td>Break element</td>
+        <td>Create a line break and does not need a closing tag.</td>
+    </tr>
+    <tr>
+        <td>&lt;img&gt;</td>
+        <td>Image element</td>
+        <td>Embeds image in documents. <span class="attribute">src</span> attribute contains image url and is necessary<br>Does not have closing tag.</td>
+    </tr>
+    <tr>
+        <td>&lt;body&gt;</td>
+        <td>Body element</td>
+        <td>Content on HTML document and browswer will render the content within opening/closing tags.</td>
+    </tr>
+    <tr>
+        <td>&lt;span&gt;</td>
+        <td>Span element</td>
+        <td>Inline container to separate pieces of text.</td>
+    </tr>
+</table>
+<h2 id="Structure">HTML: Structure</h2>
+<p>The table below are some ways to structure an HTML document!</p>
+<table>
+    <tr>
+        <th span="col">Tag</th>
+        <th span="col">Name</th>
+        <th span="col">Description</th>
+    </tr>
+    <tr>
+        <td>&lt;a&gt;</td>
+        <td>Anchor element</td>
+        <td>Used to create hyperlinks in an HTML doc. <span class="attribute">href</span>can point to URLs, files on the same server.</td>
+    </tr>
+    <tr>
+        <td>&lt;head&gt;</td>
+        <td>Head element</td>
+        <td>Contains info of HTML doc that isn't displayed as content aka metadata.</td>
+    </tr>
+    <tr>
+        <td>&lt;html&gt;</td>
+        <td>HTML element</td>
+        <td>Root of an HTML doc and should be added after <span class="attribute">!Doctype</span> declaration.</td>
+    </tr>
+    <tr>
+        <td>&lt;title&gt;</td>
+        <td>Title element</td>
+        <td>Defines the title of HTML doc, and appears on browser tab.<br>Contained inside &lt;head&gt; element.</td>
+    </tr>
+</table>
+<h2 id="Semantic">HTML: Semantic HTML</h2>
+<p>Semantic HTML tells developers what the code does and what content should go in it! Here are some examples.</p>
+<table>
+    <tr>
+        <th span="col">Tag</th>
+        <th span="col">Name</th>
+        <th span="col">Description</th>
+    </tr>
+    <tr>
+        <td>&lt;section&gt;</td>
+        <td>Section</td>
+        <td>Defines elements in document such as chapters, headings, or other areas of the document with similar themes.</td>
+    </tr>
+        <td>&lt;article&gt;</td>
+        <td>Article</td>
+        <td>Holds content that makes sense on its own.</td>
+    <tr>
+        <td>&lt;aside&gt;</td>
+        <td>Aside</td>
+        <td>Marks additional info that can enhance another element, like a sidebar.</td>
+    </tr>
+</table>
+</div>
+<footer>
+    <h3>Hope you learned something useful!</h3>
+</footer>
+</body>

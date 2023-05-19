@@ -1,0 +1,89 @@
+.top {
+    background-color: #f0d6b0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.top h1 {
+    font-family: 'Courier Prime', serif;
+    color: #a94c4c
+}
+
+
+.nav h1, a{
+    font-family: 'Courier Prime', serif;
+    text-decoration: none;
+    color: #a94c4c;
+    font-size: 30px;
+    display: inline-block;
+    width: 300px; 
+    height: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    background-color: #f0d6b0;
+    margin-top: -30px;
+    vertical-align: top;
+    text-align: center;
+    height: 100px;
+}
+
+.Topics {
+    background-color: #f0d6b0;
+    padding-bottom: 50px;
+}
+
+
+#Elements {
+    font-family: 'Courier Prime', serif;
+    font-size: 25px;
+    background-color: #d3bba7;
+    color: #a94c4c;
+}
+
+#Structure {
+    font-family: 'Courier Prime', serif;
+    font-size: 25px;
+    background-color: #d3bba7;
+    color: #a94c4c;
+}
+
+#Semantic {
+    font-family: 'Courier Prime', serif;
+    font-size: 25px;
+    background-color: #d3bba7;
+    color: #a94c4c;
+}
+
+p {
+    font-family: 'Courier Prime', serif;
+    color: #a94c4c
+}
+
+table, th, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+    margin-left: 10px;
+    font-family: 'Courier Prime', serif;
+    color: #000;
+    padding: 2px;
+}
+
+.attribute {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: #f0d6b0;
+    margin-top: -50px;
+    text-align: center;
+}
+
+h3 {
+    color: #a94c4c;
+    font-family: 'Courier Prime', serif;
+}
+
